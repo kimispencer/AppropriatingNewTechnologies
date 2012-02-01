@@ -22,7 +22,8 @@ class testApp : public ofBaseApp{
 		
 		//ofTexture	tex;
 		//ofPixels	pixels;
-		ofImage		image;
+		ofImage	image;
 		ofxCvHaarFinder finder;	 // object used to detect haar features
-
+		ofImage raybans;
+	
 };
